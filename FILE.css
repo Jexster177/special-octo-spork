@@ -60,12 +60,7 @@
 /* Member list */
 .container_c8ffbb, .members_c8ffbb, .member_c8ffbb {
     background-color: transparent !important;
-}
 
-/* Placeholder for unloaded messages */
-.wrapper_d852db,
-.wrapper_fc8177 {
-    background-color: transparent !important;
 }
 
 /* Hide borders */
@@ -90,13 +85,7 @@
     border: none !important;
     background-clip: content-box !important;
     background: var(--chillax-scroller-color) !important;
-}
 
-/*transparent call background*/
-.wrapper_cb9592,
-.minimum_cb9592,
-.callContainer_cb9592 {
-    background: none !important;
 }
 
 .root_f555ee,
@@ -570,10 +559,7 @@ html.theme-dark .mainContent-20q_Hp::before {
 .mainContent-20q_Hp:hover::after {
     opacity: 0;
     transform: scale(0.1, 1);
-}
 
-.wrapper__2ea32:hover {
-    animation: wave-text 1s ease-in-out infinite;
 }
 
 .logo.is-animetion {
@@ -903,14 +889,6 @@ html.theme-light .circleIconButton__5bc7e:hover {
     cx: 150;
     r: 47;
     cy: 57;
-}
-
-/* Center profile badge, avatar and name 2*/
-.avatarPositionNormal_f89da9 {
-    position: absolute;
-    transform: translate(-50%);
-    left: 50%;
-
 
 .userText_c9ccf6 {
     text-align: center;
@@ -1399,15 +1377,7 @@ html.theme-light .children__7bffb .colorRed__201d5:hover {
 
 .sidebar__23e6b .item_b3f026:before {
     transition: all 0.2s;
-}
 
-/*settings user profile recolour*/
-html.theme-dark .accountProfileCard__1fed1 {
-    background: rgb(26, 26, 26);
-}
-
-html.theme-light .accountProfileCard__1fed1 {
-    background: rgb(240, 240, 240);
 }
 
 html.theme-dark .background__1fed1 {
@@ -1466,64 +1436,7 @@ html.theme-dark .withTagAsButton_b2ca13:hover {
 
 html.theme-light .withTagAsButton_b2ca13:hover {
     background: #6a74803d;
-}
 
-/*custom user setting profile position*/
-.layer__960e4 .accountProfileCard__1fed1 .settingsBanner_c3e427 {
-    margin: 8px;
-    width: unset;
-    height: 90px !important;
-    min-height: 0px;
-    border-radius: 8px;
-}
-
-
-/* Settings > User Info Section */
-.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 {
-    align-items: center;
-    justify-content: center;
-    width: calc(100% - 34px);
-    margin-left: 17px;
-    padding: 0;
-    padding-top: 50px;
-    padding-bottom: 9px;
-}
-
-
-}
-
-.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .userTag__1fed1 {
-    margin-bottom: 2px;
-}
-
-.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .container__8061a {
-    justify-content: center;
-    width: 100%;
-    /*margin-bottom: 57px;*/
-}
-
-.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .button__201d5 {
-    position: absolute;
-    top: 53px;
-    right: 295px;
-    width: 76px;
-    height: 76px;
-    min-width: unset;
-    min-height: unset;
-    padding: 0;
-    border-radius: 50px;
-    background-color: transparent !important;
-    font-size: 0;
-    border: none !important;
-    box-shadow: none;
-}
-
-.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .button__201d5:hover {
-    background-color: rgba(0, 0, 0, 0.6) !important;
-    box-shadow: none;
-    background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="thistle" class="bi bi-pencil-square" viewBox="0 0 16 16"><path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/><path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/></svg>') !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
 }
 
 /*toolbar fix [the bar when u double click ur unsent text]*/
@@ -1589,31 +1502,7 @@ html.theme-light .withTagAsButton_b2ca13:hover {
 
 .scroller_ef3116 > div[aria-label="Servers"]::-webkit-scrollbar {
     width: 0px;
-}
 
-/*active now*/
-.heading-lg-medium-3gUJeM {
-    text-align: center;
-}
-
-html.theme-dark .itemCard__7e549.wrapper__00943 {
-    background: rgb(25, 25, 26);
-}
-
-html.theme-light .itemCard__7e549.wrapper__00943 {
-    background: #f2f3f5;
-}
-
-.itemCard__7e549.wrapper__00943:hover {
-    transition: 0.2s;
-}
-
-html.theme-dark .itemCard__7e549.wrapper__00943:hover {
-    background: rgb(43, 43, 44);
-}
-
-html.theme-light .itemCard__7e549.wrapper__00943:hover {
-    background: rgb(255, 255, 255);
 }
 
 .section__00943 {
@@ -2797,13 +2686,7 @@ html.theme-light .name__2ea32,
 html.theme-light .container__13cf1 {
     /* Channels */
     color: #585b5e;
-}
 
-html.theme-light .modeMuted__2ea32:hover .name__2ea32,
-html.theme-light .wrapper__2ea32:hover .name__2ea32,
-html.theme-light .wrapper__29444:hover .name__29444 {
-    /* Channels hover */
-    color: #333333;
 }
 
 html.theme-light .modeSelected__2ea32 .name__2ea32 {
@@ -2863,5 +2746,6 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
     background-color: transparent !important;
 
 }
+
 
 
